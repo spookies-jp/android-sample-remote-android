@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>Remote Android</title>
+    
+    <script src="./jquery.js"></script>
+    <script src="./websocket.js"></script>
+    <script src="./preview.js"></script>
+    <link rel="STYLESHEET" href="./main.css" type="text/css" />
+    
+</head>
+<body>
+
+<div id="main">
+    <div id="sidebar">
+    
+<h1>Wi-Fi Camera</h1>
+
+    <div id="connection">停止中</div>
+    <div id="take_button_block">
+        <button onClick="send('CAMERA_TAKE');">撮影</button>
+    </div>
+    
+    <div id="gallery">
+        <br style="clear:both"/>
+    </div>
+    
+    </div> <!-- end sidebar -->
+
+    <div id="content">
+        <img id="screen" src="./sleep.gif" width="640"/>
+        
+    
+    </div> <!-- end content -->
+    <br style="clear:both"/>
+</div> <!-- end main -->
+
+<div id="footer_space">
+<div id="footer">
+Copyright (C) 2011 @_likr, @t5tmy All Rights Reserved.
+</div>
+</div> <!-- end footer_space -->
+
+<div id="preview_back" onClick="close_preview();"></div>
+<div id="preview_space" onClick="close_preview();">
+    <div id="picture_space">
+    <img/>
+    </div>
+</div>
+</body>
+
+</html>

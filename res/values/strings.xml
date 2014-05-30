@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wi-Fi Camera</string>
+    <string name="server_info">サーバ情報</string>
+    <string name="start_service">サーバを起動します</string>
+    <string name="stop_service">サーバを停止します</string>
+    <string name="wifi_info">Wi-Fi情報</string>
+    <string name="preference">設定</string>
+    <string name="current_version">ver.20110216</string>
+    <string name="copyright">Copyright(C) @_likr, @t5tmy All Rights Reserved.</string>
+    <string name="camera_frequency">画面更新頻度</string>
+    <string name="camera_quality">画質</string>
+    <string name="camera_frequency_summary">カメラ映像の更新間隔を設定します</string>
+    <string name="camera_quality_summary">カメラの画質を設定します</string>
+    <string name="port_number">ポート番号</string>
+    <string name="port_number_summary">サーバで使用するポート番号を設定します</string>
+    <string name="camera_start">カメラ起動</string>
+    <string name="menu_about">About</string>
+    <string name="menu_help">Help</string>
+    <string name="help_text">１．機能\n
+\n
+本機のカメラをWi-Fi越しにPCのブラウザなどで操作することができます。\n
+\n
+２．サーバ(本機)\n
+\n
+２．１．動作要件\n
+\n
+Wi-Fiとカメラを使用します。\n
+\n
+２．２．使い方\n
+\n
+・サーバの起動\n
+Wi-Fi Cameraのチェックボックスにチェックを入れるとサーバが起動してクライアントからのアクセスを待ち受けるようになります。\n
+\n
+・サーバの停止\n
+Wi-Fi Cameraのチェックボックスからチェックを外すとサーバは停止してクライアントからの接続も遮断されます。\n
+\n
+・カメラの起動\n
+カメラ起動ボタンを押してください。カメラの起動中は接続されたクライアントにカメラの映像が配信されます。カメラ起動ボタンはサーバが起動している間のみ押すことができます。\n
+\n
+・カメラの停止\n
+カメラの起動中に戻るボタンやホームボタンなどを押してください．カメラが停止するとクライアントへの映像の配信は中断されます。\n
+\n
+・カメラの再起動\n
+カメラを停止して映像の配信を中断した場合でも，再度カメラを起動すると映像の配信が再開されます。映像の配信を完全に止める場合はサーバを停止してください。\n
+\n
+\n
+３．クライアント(PC等ブラウザ)\n
+\n
+３．１．動作要件\n
+\n
+WebSocketに対応したブラウザでJavaScriptが有効になっている必要があります。\n
+\n
+動作確認済みブラウザ\n
+・Google Chrome 8,9\n
+・Chromium 8,9\n
+・Safari 5\n
+\n
+３．２．使い方\n
+\n
+・接続\n
+本機のWi-Fi情報に表示されているIPアドレスにブラウザからアクセスします。\n
+\n
+・映像の表示\n
+サーバ側でカメラが起動されるとページ内に自動的にカメラの映像を表示します。ページ左部に赤色で停止中と表示されている場合はサーバとの接続が切れているので，リロードやネットワークの設定を確認してください。\n
+\n
+・写真の撮影\n
+画面左部の撮影ボタンを押すと，サーバ側の現在の映像を写真に撮ることができます。撮影した写真は撮影ボタンの下部に追加されていきます。ブラウザの「名前を付けて保存」などの操作を行うとクライアント側に保存することができます。\n
+\n
+・写真の確認\n
+撮影した写真をクリックすると拡大して表示されます。ページ内をクリックすると拡大は解除されます。\n
+\n
+４．設定\n
+・ポート番号\n
+本機でアクセスを待ち受けるポート番号を指定します。デフォルトでは8080です。\n
+\n
+・画面更新頻度\n
+クライアントに転送する映像の描画頻度を高，中，低の３段階から選択します。高の方が映像がなめらかになります。\n
+\n
+・画質\n
+クライアントに転送する映像の品質を高，中，低の３段階から選択します。高の方が鮮明な画像になります。</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="key_service_switch">@string/app_name</string>
+<string name="key_wifi_info">@string/wifi_info</string>
+<string name="key_port_number">key_port_number</string>
+<string name="key_camera_interval">key_camera_interval</string>
+<string name="key_service_switch_category">key_service_switch_category</string>
+<string name="key_camera_button">key_camera_button</string>
+<string name="key_camera_quality">key_camera_quality</string>
+</resources>

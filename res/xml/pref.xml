@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/server_info" android:key="@string/key_service_switch_category">
+		<CheckBoxPreference android:title="@string/app_name"
+			android:summaryOff="@string/start_service" android:summaryOn="@string/stop_service" android:disableDependentsState="true" android:key="@string/key_service_switch"/>
+		
+        <jp.co.spookies.android.a3.websocket.util.TextDialogPreference
+            android:key="@string/key_wifi_info"
+            android:title="@string/wifi_info"
+            android:summary="no connection..."
+            android:dialogTitle="@string/wifi_info"
+            android:dialogMessage="no connection..."
+            android:negativeButtonText="@null"
+        />	
+		<Preference android:layout="@layout/camera_button" android:enabled="false" android:key="@string/key_camera_button"></Preference>
+		
+	</PreferenceCategory>
+    <PreferenceCategory android:title="@string/preference">
+        <EditTextPreference android:summary="@string/port_number_summary" android:title="@string/port_number" android:defaultValue="@string/default_port_number" android:key="@string/key_port_number" android:dependency="@string/key_service_switch" android:inputType="number" android:numeric="integer"></EditTextPreference>
+        <ListPreference android:title="@string/camera_frequency" android:entries="@array/degree_labels" android:entryValues="@array/camera_interval_values" android:summary="@string/camera_frequency_summary" android:defaultValue="@string/camera_interval_values_middle" android:key="@string/key_camera_interval" android:dependency="@string/key_service_switch"></ListPreference><ListPreference android:entries="@array/degree_labels" android:entryValues="@array/camera_quality_values" android:key="@string/key_camera_quality" android:summary="@string/camera_quality_summary" android:title="@string/camera_quality" android:dependency="@string/key_service_switch" android:defaultValue="@string/default_camera_quality"></ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

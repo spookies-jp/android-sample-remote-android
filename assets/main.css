@@ -1,0 +1,123 @@
+html {
+    height:100%;
+}
+body {
+    /*background: url("android_header.gif") repeat-x scroll top;*/
+    background-color: #e0e0e0;
+    margin: 0;
+    height:100%;
+}
+h1 {
+    width: 300px;
+    margin: 8px auto 0 auto;
+}
+
+.border {
+    height: 12px;
+    background: url("./border.gif") repeat-x;
+}
+
+#main {
+    margin: 0 auto 0 auto;
+    width: 900px;
+    border-bottom: solid 1px black;
+}
+
+#connection {
+    color: #ff0000;
+    border-bottom: solid 1px #000000;
+    text-align: right;
+}
+#take_button_block {
+    text-align: right;
+    margin:30px 8px 10px 0;
+}
+#take_button_block button{
+    width:148px;
+    height:40px;
+}
+
+#sidebar {
+    float:left;
+    width: 200px;
+    margin: 0;
+    height: 100%;
+}
+/*
+#controller {
+    background-color: #f0f0f0;
+    border-right: solid 6px #909090;
+    border-left: solid 6px #909090;
+}*/
+.pic {
+    margin: 0 5px 5px 0;
+}
+#content {
+    margin: 50px 0 50px 0;
+    float:right;
+}
+
+#footer_space {
+    margin: 20px 0 0 0;
+}
+
+#footer {
+    margin: 0 auto 0 auto;
+    width: 900px;
+    height: 40px;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+#gallery {
+    padding: 4px;
+    margin-top: 5px;
+    width: 192px;
+}
+#gallery img {
+    border: 4px solid #3e3e3e;
+    border-width: 4px 4px 20px;
+    margin: 0 5px 0 auto;
+}
+#gallery a:hover img {
+    border: 4px solid #fff;
+    border-width: 4px 4px 20px;
+    color: #fff;
+}
+.picture_box {
+    float:right;
+}
+
+#preview_back {
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:black;
+    z-index:10;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;
+    width:100%;
+}
+#preview_space {
+    display:none;
+    position:absolute;
+    top:30px;
+    left: 50px;
+    z-index:20;
+}
+#preview_button {
+    float:left;
+    margin:100px 10px 0 0;
+}
+#preview_button a {
+    text-decoration:none;
+    font-weight:bold;
+    font-size:2em;
+    color:white;
+}
+#picture_space {
+    float:left;
+    margin: auto;
+}

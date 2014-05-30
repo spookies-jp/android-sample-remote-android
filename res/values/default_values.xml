@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_port_number">8080</string>
+    <string name="default_camera_interval">@string/camera_interval_values_middle</string>
+    <string name="default_camera_quality">@string/camera_quality_values_middle</string>
+</resources>

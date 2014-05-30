@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="degree_labels">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="camera_interval_values">
+        <item>@string/camera_interval_values_high</item>
+        <item>@string/camera_interval_values_middle</item>
+        <item>@string/camera_interval_values_low</item>
+    </string-array>
+    <string-array name="camera_quality_values">
+        <item>@string/camera_quality_values_high</item>
+        <item>@string/camera_quality_values_middle</item>
+        <item>@string/camera_quality_values_low</item>
+    </string-array>
+    <string name="camera_interval_values_high">100</string>
+    <string name="camera_interval_values_middle">300</string>
+    <string name="camera_interval_values_low">500</string>
+    <string name="camera_quality_values_high">80</string>
+    <string name="camera_quality_values_middle">50</string>
+    <string name="camera_quality_values_low">20</string>
+</resources>
